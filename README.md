@@ -72,7 +72,7 @@ This toolkit is composed of:
 
 This set of hooks is curated and maintained by the FOMOLOL Classified team:
 
-- Scott Shin ([@shinmc\_](https://twitter.com/shinmc)) – [FOMOLOL](https://www.fomolol.com)
+- Scott Shin ([@shinmc\_](https://twitter.com/shinmc_)) – [FOMOLOL](https://www.fomolol.com)
 - Rob Sawyer ([@robksawyer\_](https://twitter.com/robksawyer)) – [FOMOLOL](https://www.fomolol.com)
 
 This project template and some of the hooks were borrowed from the amazing work of Studio Freight:
