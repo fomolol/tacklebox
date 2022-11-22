@@ -1,4 +1,4 @@
-[![HAMO](https://assets.studiofreight.com/hamo/header.png)](https://github.com/studio-freight/hamo)
+[![TackleBox](https://i.ibb.co/zRyNfTW/tacklebox.png)](https://github.com/fomolol/tacklebox)
 
 <!-- <p align="center">
   <a aria-label="Vercel logo" href="https://vercel.com">
@@ -18,15 +18,16 @@
 
 ## Introduction
 
-Hamo means hook, you do the math
+The Tackle Box holds the hooks, you do the math
 
 <br/>
 
 ## Setup
 
 ```bash
-$ npm i @studio-freight/hamo
+$ npm i @fomolol/tacklebox
 ```
+
 or use whatever package manager you like the most
 
 <br/>
@@ -69,7 +70,12 @@ This toolkit is composed of:
 
 ## Authors
 
-This set of hooks is curated and maintained by the Studio Freight Darkroom team:
+This set of hooks is curated and maintained by the FOMOLOL Classified team:
+
+- Scott Shin ([@shinmc\_](https://twitter.com/shinmc)) – [FOMOLOL](https://www.fomolol.com)
+- Rob Sawyer ([@robksawyer\_](https://twitter.com/robksawyer)) – [FOMOLOL](https://www.fomolol.com)
+
+This project template and some of the hooks were borrowed from the amazing work of Studio Freight:
 
 - Clement Roche ([@clementroche\_](https://twitter.com/clementroche_)) – [Studio Freight](https://studiofreight.com)
 - Guido Fier ([@uido15](https://twitter.com/uido15)) – [Studio Freight](https://studiofreight.com)
