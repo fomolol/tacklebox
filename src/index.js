@@ -2,7 +2,6 @@ export { default as useOutsideClickEvent } from './hooks/use-click-outside-event
 export { default as useDebug } from './hooks/use-debug.js'
 export { default as useDocumentReadyState } from './hooks/use-document-ready-state.js'
 export { default as useEventBus, dispatch } from './hooks/use-event-bus.js'
-export { default as useFrame } from './hooks/use-frame.js'
 export { default as useId } from './hooks/use-id.js'
 export { default as useInterval } from './hooks/use-interval.js'
 export { default as useIsTouchDevice } from './hooks/use-is-touch-device.js'

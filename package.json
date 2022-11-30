@@ -47,6 +47,7 @@
   "dependencies": {
     "@studio-freight/tempus": "^0.0.30",
     "nanoid": "^4.0.0",
+    "remove": "^0.1.5",
     "throttle-debounce": "^5.0.0"
   },
   "peerDependencies": {
