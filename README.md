@@ -42,8 +42,6 @@ This toolkit is composed of:
 
 `useEffectOnce` – runs a function through react's useEffect with an empty dependency array
 
-`useFrame` – use `@react-spring/rafz` animation frame
-
 `useInterval` – create and dispose intervals
 
 `useIsTouchDevice` – duh
