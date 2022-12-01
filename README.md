@@ -106,7 +106,9 @@ The toolkit is composed of the following hooks:
 
 `useSlots` – brings vue `slots` to react
 
-`useSticky` – making those sticky headers easier to manage
+`useSticky` – sticky elements based on a class name 
+
+`useStickyHeader` – making those sticky headers easier to manage
 
 `useTheme` – this helps when you have a dark/light mode responsive site
 
