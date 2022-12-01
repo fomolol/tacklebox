@@ -34,7 +34,7 @@ or use whatever package manager you like the most
 
 ## Features
 
-This toolkit is composed of:
+The toolkit is composed of the following hooks:
 
 `useClipboard` – copies things to the clipboard (so the user can paste with haste)
 
@@ -106,9 +106,17 @@ This toolkit is composed of:
 
 <!-- `useTimeoutFn` – timeout a function -->
 
-`useUnmount` – calls `unmount` callbacks.
+`useTimeout` – timeout helper
 
 `useWindowSize` – window sizing updated in sync with `@react-spring/rafz`
+
+If you don't find what you're looking for, it's likely part of the [react-use](https://github.com/streamich/react-use) collection.
+
+Some of our favorites from this collection include:
+
+`[useSpeech](https://github.com/streamich/react-use/blob/master/src/useSpeech.ts)`, `[useIdle](https://github.com/streamich/react-use/blob/master/src/useIdle.ts`, `[useBattery](https://github.com/streamich/react-use/blob/master/src/useBattery.ts)`, `[useDeepCompareEffect](https://github.com/streamich/react-use/blob/master/src/useDeepCompareEffect.ts)`, `[useEffectOnce](https://github.com/streamich/react-use/blob/master/src/useEffectOnce.ts)`, `[useLongPress](https://github.com/streamich/react-use/blob/master/src/useLongPress.ts)`, `[usePageLeave](https://github.com/streamich/react-use/blob/master/src/usePageLeave.ts)`, `[usePinchZoom](https://github.com/streamich/react-use/blob/master/src/usePinchZoom.ts)`, `[useQueue](https://github.com/streamich/react-use/blob/master/src/useQueue.ts)`, `[useScratch](https://github.com/streamich/react-use/blob/master/src/useScratch.ts)`, `[useSearchParam](https://github.com/streamich/react-use/blob/master/src/useSearchParam.ts)`, `[useStartTyping](https://github.com/streamich/react-use/blob/master/src/useStartTyping.ts)`, `[useToggle](https://github.com/streamich/react-use/blob/master/src/useToggle.ts)`, `[useTitle](https://github.com/streamich/react-use/blob/master/src/useTitle.ts)`
+
+Definitely check the collection out at <http://streamich.github.io/react-use>
 
 <br/>
 
