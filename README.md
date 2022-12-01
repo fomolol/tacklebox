@@ -36,29 +36,67 @@ or use whatever package manager you like the most
 
 This toolkit is composed of:
 
-`useDebounce` – debounce goodness
+`useClipboard` – copies things to the clipboard (so the user can paste with haste)
+
+`useCookieBanner` – tackles some cookie banner related saving to local storage
+
+`useCustomConsole` – you can now make the console (via inspector) say what you want
+
+<!-- `useDebounce` – debounce goodness -->
 
 `useDebug` – returns true if #debug is present in the url
 
-`useEffectOnce` – runs a function through react's useEffect with an empty dependency array
+<!-- `useEffectOnce` – runs a function through react's useEffect with an empty dependency array -->
+
+`useId` – more coming soon
 
 `useInterval` – create and dispose intervals
 
+`useDocumentReadyState` – more coming soon
+
+`useEventBus` – more coming soon
+
+`useFocus` – focus state
+
+`useGiphy` – now you can add giphys anywhere. NOTE: You need to sign up for the api and add the env var GIPHY_API_KEY to your env vars. See https://developers.giphy.com/ and https://www.npmjs.com/package/giphy-api for more.
+
 `useIsTouchDevice` – duh
+
+`useIsVisible` – duh
+
+`useHorizontalScroll` – duh
+
+`useHoverImage` – now you can make those [sexy hover images](https://tympanus.net/codrops/2020/07/01/creating-a-menu-image-animation-on-hover/) like a pro.
 
 `useIsomophicLayoutEffect` – runs react's `useLayoutEffect` if in browser, if not, runs a plain `useEffect` instead
 
-`useMeasure` – measure anything in the dom
+`useIntersectionObserver` – spring-based intersection action
+
+`useIntersectionObserver` – spring-based intersection action
 
 `useMediaQuery` – css-like media query support in Javascript.
 
-`useRafState` – modify state in sync with `@react-spring/rafz`
+`useMousePosition` – handles collecting the mouse position
 
-`useRect` – getboundingclientrect with scrollY sauce if using our [lenis](https://github.com/studio-freight/lenis) smooth scroll
+<!-- `useMeasure` – measure anything in the dom -->
+
+`useHashScroll` – when using smooth scrolling, the hash in the url can cause issues. Load this up to solve those.
+
+`useParallax` – cool parallax movement
+
+`usePopup` – Window popups are a pain in the arse in React, so this hook makes them easier to deal with.
+
+<!-- `useRafState` – modify state in sync with `@react-spring/rafz` -->
+
+`useRect` – shorthand version of getboundingclientrect
+
+`useSmoothTransform` – shorthand to make a transform that uses spring dynamics
 
 `useSlots` – brings vue `slots` to react
 
-`useTimeoutFn` – timeout a function
+`useTheme` – this helps when you have a dark/light mode responsive site
+
+<!-- `useTimeoutFn` – timeout a function -->
 
 `useUnmount` – calls `unmount` callbacks.
 

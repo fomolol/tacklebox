@@ -1,6 +1,6 @@
 {
   "name": "@fomolol/tacklebox",
-  "version": "0.0.1",
+  "version": "0.0.6",
   "description": "This tacklebox is full of hooks.",
   "author": "fomolol",
   "files": [
@@ -26,16 +26,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fomolol/bibliotheca.git"
+    "url": "git+https://github.com/fomolol/modulemaker.git"
   },
   "keywords": [],
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/fomolol/bibliotheca/issues"
+    "url": "https://github.com/fomolol/modulemaker/issues"
   },
-  "homepage": "https://github.com/fomolol/bibliotheca#readme",
+  "homepage": "https://github.com/fomolol/modulemaker#readme",
   "devDependencies": {
     "@size-limit/preset-small-lib": "^8.1.0",
+    "giphy-api": "^2.0.2",
     "microbundle": "^0.15.1",
     "path": "^0.12.7",
     "react": "^18.2.0",
@@ -45,12 +46,15 @@
     "vite": "^3.2.2"
   },
   "dependencies": {
-    "@studio-freight/tempus": "^0.0.30",
+    "framer-motion": "^7.6.15",
     "nanoid": "^4.0.0",
+    "react-singleton-hook": "^4.0.1",
     "remove": "^0.1.5",
     "throttle-debounce": "^5.0.0"
   },
   "peerDependencies": {
+    "giphy-api": "^2.0.2",
+    "next": "^13.0.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
