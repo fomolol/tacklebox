@@ -14,7 +14,7 @@
           {
             "name": "react",
             "importNames": ["useLayoutEffect"],
-            "message": "Please import from @studio-freight/hamo instead."
+            "message": "Please import from @fomolol/tacklebox instead."
           }
         ]
       }
