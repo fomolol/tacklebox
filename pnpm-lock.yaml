@@ -4,6 +4,7 @@ specifiers:
   '@size-limit/preset-small-lib': ^8.1.0
   framer-motion: ^7.6.15
   giphy-api: ^2.0.2
+  matter-js: ^0.18.0
   microbundle: ^0.15.1
   nanoid: ^4.0.0
   path: ^0.12.7
@@ -26,6 +27,7 @@ dependencies:
 devDependencies:
   '@size-limit/preset-small-lib': 8.1.0_size-limit@8.1.0
   giphy-api: 2.0.2
+  matter-js: 0.18.0
   microbundle: 0.15.1
   path: 0.12.7
   react: 18.2.0
@@ -3046,6 +3048,10 @@ packages:
     engines: {node: '>=8'}
     dependencies:
       semver: 6.3.0
+    dev: true
+
+  /matter-js/0.18.0:
+    resolution: {integrity: sha512-/ZVem4WygUnbmo/iE4oHZpZS97btfBtYy5Iwn1396vUZU7YhgVEN8J4UWwfZwY1ZqoTYlPgjvSw9WXauuXL0mg==}
     dev: true
 
   /maxmin/2.1.0:

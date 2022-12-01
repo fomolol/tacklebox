@@ -74,9 +74,13 @@ This toolkit is composed of:
 
 `useIntersectionObserver` – spring-based intersection action
 
+`useMatterJS` – if you decide you want to use [Matter.js](https://brm.io/matter-js/) in React
+
 `useMediaQuery` – css-like media query support in Javascript.
 
 `useMousePosition` – handles collecting the mouse position
+
+`useMouseDirection` – handles finding the direction the mouse moved
 
 <!-- `useMeasure` – measure anything in the dom -->
 
@@ -86,6 +90,8 @@ This toolkit is composed of:
 
 `usePopup` – Window popups are a pain in the arse in React, so this hook makes them easier to deal with.
 
+`usePaperJS` – if you decide you want to use [Paper.js](http://paperjs.org/) in React
+
 <!-- `useRafState` – modify state in sync with `@react-spring/rafz` -->
 
 `useRect` – shorthand version of getboundingclientrect
@@ -93,6 +99,8 @@ This toolkit is composed of:
 `useSmoothTransform` – shorthand to make a transform that uses spring dynamics
 
 `useSlots` – brings vue `slots` to react
+
+`useSticky` – making those sticky headers easier to manage
 
 `useTheme` – this helps when you have a dark/light mode responsive site
 

@@ -1,6 +1,6 @@
 {
   "name": "@fomolol/tacklebox",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "This tacklebox is full of hooks.",
   "author": "fomolol",
   "files": [
@@ -37,6 +37,7 @@
   "devDependencies": {
     "@size-limit/preset-small-lib": "^8.1.0",
     "giphy-api": "^2.0.2",
+    "matter-js": "^0.18.0",
     "microbundle": "^0.15.1",
     "path": "^0.12.7",
     "react": "^18.2.0",
@@ -54,6 +55,7 @@
   },
   "peerDependencies": {
     "giphy-api": "^2.0.2",
+    "matter-js": "^0.18.0",
     "next": "^13.0.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"

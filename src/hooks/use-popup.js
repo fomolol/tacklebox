@@ -135,3 +135,5 @@ export const usePopup = ({
     onClick,
   }
 }
+
+export default usePopup
