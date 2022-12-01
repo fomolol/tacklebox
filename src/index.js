@@ -35,7 +35,7 @@ export { default as useTimeout } from './hooks/use-timeout.js'
 export { default as useCanvas } from './hooks/use-canvas.js'
 export { default as useCursorStyle } from './hooks/use-cursor-style.js'
 
-// Need to figure out how to include these without their dependencies
-// export { default as usePaperJS } from './hooks/use-paper-js.js'
-// export { default as useMatterJS } from './hooks/use-matter-js.js'
-// export { default as useGiphy } from './hooks/use-giphy.js'
+// Hooks with external depedencies
+export { default as usePaperJS } from './hooks/use-paper-js.js'
+export { default as useMatterJS } from './hooks/use-matter-js.js'
+export { default as useGiphy } from './hooks/use-giphy.js'

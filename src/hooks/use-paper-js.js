@@ -2,8 +2,8 @@
  * @file usePaperJS
  * Helper to initial PaperJS
  */
+// import Paper from 'paper'
 import { useState } from 'react'
-import Paper from 'paper'
 import { useLayoutEffect } from './use-isomorphic-layout-effect'
 
 /**

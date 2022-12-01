@@ -2,8 +2,8 @@
  * @file useMatterJS.js
  * Hook to get started with MatterJS
  */
+// import * as Matter from 'matter-js'
 import { useMemo } from 'react'
-import * as Matter from 'matter-js'
 
 // import MatterAttractors from 'matter-attractors';
 // import MatterWrap from 'matter-wrap';

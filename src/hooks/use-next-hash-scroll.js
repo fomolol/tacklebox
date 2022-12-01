@@ -1,7 +1,7 @@
 /**
  * @file useHashScroll
  */
-import { useRouter } from 'next/router'
+// import { useRouter } from 'next/router'
 import { useLayoutEffect } from './use-isomorphic-layout-effect'
 
 const getHash = (asPath) => asPath.split('#')[1]
