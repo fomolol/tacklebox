@@ -36,11 +36,15 @@ or use whatever package manager you like the most
 
 The toolkit is composed of the following hooks:
 
+`useCanvas` – for when you want to use canvas
+
 `useClipboard` – copies things to the clipboard (so the user can paste with haste)
 
 `useCookieBanner` – tackles some cookie banner related saving to local storage
 
 `useCustomConsole` – you can now make the console (via inspector) say what you want
+
+`useCursorStyle` – this can be used with the [@fomolol/dope](https://github.com/fomolol/dope) `CursorContext` and `Cusor` components.
 
 <!-- `useDebounce` – debounce goodness -->
 
