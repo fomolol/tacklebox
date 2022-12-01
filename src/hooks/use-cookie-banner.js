@@ -8,7 +8,11 @@
 import { useState } from 'react'
 import { useLayoutEffect } from './use-isomorphic-layout-effect'
 
-export const useCookieBanner = ({ cookieAcceptKey }) => {
+export const useCookieBanner = ({
+  cookieAcceptKey,
+  onAccepted,
+  onDeclined,
+}) => {
   const [cookieAccepted, setCookieAccepted] = useState()
 
   useLayoutEffect(() => {
@@ -19,8 +23,10 @@ export const useCookieBanner = ({ cookieAcceptKey }) => {
     if (acceptedCookies !== null) {
       // NOTE: We need to actually store this information somewhere.
       setCookieAccepted(true)
+      onAccepted()
     } else {
       setCookieAccepted(false)
+      onDeclined()
     }
   }, [])
 
