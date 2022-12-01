@@ -137,6 +137,14 @@ Some of our favorites from this collection include:
 
 Definitely check the collection out at <http://streamich.github.io/react-use>
 
+
+Another worthy collection of fine hooks is located at: <https://github.com/jaredLunde/react-hook>. 
+Some highlights include:
+
+- [useCache](https://github.com/jaredLunde/react-hook/blob/master/packages/cache#readme)
+- [useDebounce](https://github.com/jaredLunde/react-hook/blob/master/packages/debounce#readme)
+- [useGoogleOptimize](https://github.com/jaredLunde/react-hook/tree/master/packages/google-optimize)
+
 <br/>
 
 ## Authors
