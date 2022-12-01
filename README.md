@@ -54,6 +54,8 @@ The toolkit is composed of the following hooks:
 
 `useId` – more coming soon
 
+`useForkRef` – this is used in the CanvasEraser component in [@fomolol/dope](https://github.com/fomolol/dope).
+
 `useInterval` – create and dispose intervals
 
 `useDocumentReadyState` – more coming soon
