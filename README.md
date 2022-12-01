@@ -115,7 +115,7 @@ If you don't find what you're looking for, it's likely part of the [react-use](h
 Some of our favorites from this collection include:
 
 - [useSpeech](https://github.com/streamich/react-use/blob/master/src/useSpeech.ts)
-- [useIdle](https://github.com/streamich/react-use/blob/master/src/useIdle.ts
+- [useIdle](https://github.com/streamich/react-use/blob/master/src/useIdle.ts)
 - [useBattery](https://github.com/streamich/react-use/blob/master/src/useBattery.ts)
 - [useDeepCompareEffect](https://github.com/streamich/react-use/blob/master/src/useDeepCompareEffect.ts)
 - [useEffectOnce](https://github.com/streamich/react-use/blob/master/src/useEffectOnce.ts)
