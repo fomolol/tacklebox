@@ -15,6 +15,8 @@ import { useLayoutEffect } from './use-isomorphic-layout-effect'
 // }
 // Hook
 export const useWindowSize = () => {
+  if (typeof window === 'undefined') return
+
   // Initialize state with undefined width/height so server and client renders match
   // Learn more here: https://joshwcomeau.com/react/the-perils-of-rehydration/
   const [windowSize, setWindowSize] = useState()
