@@ -8,12 +8,12 @@ import { useEffect, useState, useRef } from 'react'
  * @param {void}
  * @returns
  */
-function useStickyHeader() {
+function useStickyHeader(offset = 0) {
   const [isSticky, setSticky] = useState(false)
   const ref = useRef(null)
 
   const handleScroll = () => {
-    window.scrollY > ref.current.getBoundingClientRect().bottom
+    window.scrollY > ref.current.getBoundingClientRect().bottom + offset
       ? setSticky(true)
       : setSticky(false)
   }
